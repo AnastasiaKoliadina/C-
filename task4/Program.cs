@@ -6,10 +6,11 @@
 Console.Write("Введите число N ");
 int N = int.Parse(Console.ReadLine());
 
-int a = 0;
-// int b = 0;
-// b = N/10;
-a = N%10;
+
+// double b = N/10;
+int a = N%10;
 
  Console.WriteLine("Деление с остатком" + a);// выводится остаток при делении
  // Console.WriteLine("Целочисленное деление" + b); выводится целое число до запятой
+
+ // Для упрощения можно  int a = N%10 перенести  в строку Consol.WriteLine(N%10)
